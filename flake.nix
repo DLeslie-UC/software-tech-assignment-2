@@ -17,6 +17,7 @@
         pandas
         tkinter
         python-lsp-server
+        pillow
       ];
   in {
     devShells = forAllSystems (system: {
