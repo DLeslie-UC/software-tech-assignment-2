@@ -18,6 +18,8 @@
         tkinter
         python-lsp-server
         pillow
+        ipdb
+        opencv4Full
       ];
   in {
     devShells = forAllSystems (system: {

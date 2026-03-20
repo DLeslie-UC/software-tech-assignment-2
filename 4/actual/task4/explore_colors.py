@@ -17,7 +17,7 @@ image = Image.open('../assets/2_Sphaer 2021_1_2021_06_03-11-22-54-852.PNG')
 print(image.getpixel((0,0)))
 for x in range(image.size[0]):
     for y in range(image.size[1]):
-        print(image.getpixel((x,y))[0])
+        # print(image.getpixel((x,y))[0])
         if image.getpixel((x,y))[0] == 34:
             image.putpixel((x,y), (200,20,20))
 image.show()
