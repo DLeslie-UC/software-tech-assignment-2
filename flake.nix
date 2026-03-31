@@ -20,6 +20,8 @@
         pillow
         ipdb
         opencv4Full
+        keras
+        matplotlib
       ];
   in {
     devShells = forAllSystems (system: {
