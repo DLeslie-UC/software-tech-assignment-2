@@ -1,4 +1,5 @@
 = Report
+// TODO: Put into jupyter notebook
 == Task 1
 This task introduces us to the Keras API, and shows us how to inspect the details of the image thats been loaded. It also shows how to show the image.
 #image("./results/1_1.png")

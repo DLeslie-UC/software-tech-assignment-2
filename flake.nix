@@ -22,12 +22,15 @@
         opencv4Full
         keras
         matplotlib
+        jupyter
       ];
   in {
     devShells = forAllSystems (system: {
       default = pkgs.${system}.mkShellNoCC {
         packages = with pkgs.${system}; [
           (python3.withPackages pythonPackages)
+          jupyter-all
+          vscodium
         ];
       };
     });
